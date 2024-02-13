@@ -1,8 +1,26 @@
+import {
+  Navbar,
+  Hero,
+  Destinasi,
+  Populer,
+  Hotel,
+  Carousel,
+} from "../components"
+
 const HomePage = () => {
   return (
-    <div className="">
-      <h1>HomePage</h1>
-    </div>
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Hero />
+        <Destinasi />
+        <Carousel />
+        <Populer />
+        <Hotel />
+      </main>
+    </>
   )
 }
 
