@@ -1,4 +1,5 @@
-const ArrowLeft = () => {
+/* eslint-disable react/prop-types */
+const ArrowLeft = ({ className }) => {
   return (
     <svg
       width="32"
@@ -8,8 +9,9 @@ const ArrowLeft = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
+        className={`fill-primary ${className}`}
         d="M16.9427 8.94263L15.0573 7.05729L6.11467 16L15.0573 24.9426L16.9427 23.0573L11.2187 17.3333L24 17.3333L24 14.6666L11.2187 14.6666L16.9427 8.94263Z"
-        fill="white"
+        fill="currentColor"
       />
     </svg>
   )

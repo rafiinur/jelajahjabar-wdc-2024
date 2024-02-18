@@ -3,15 +3,13 @@ import { navLinks } from "../constant"
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between w-[72rem] h-[120px] mx-auto bg-tranparent absolute top-0 left-1/2 -translate-x-[50%]">
-      <h1 className="font-semibold text-[28px] leading-[120px]">
-        JelajahJabar.
-      </h1>
-      <ul className="flex items-center gap-14">
+    <nav className="absolute top-0 left-1/2 -translate-x-[50%] flex justify-between items-center w-[72rem] max-w-[72rem] h-[7.5rem] mx-auto">
+      <h1 className="text-3xl font-semibold">JelajahJabar.</h1>
+      <ul className="flex gap-12">
         {navLinks.map((link) => (
           <li key={link.name}>
             <NavLink
-              className="text-xl"
+              className="text-2xl transition-colors hover:text-primary"
               href={link.path}
             >
               {link.name}

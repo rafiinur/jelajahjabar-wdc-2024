@@ -1,25 +1,27 @@
 import {
-  Navbar,
-  Hero,
+  Header,
   Destinasi,
   Populer,
   Hotel,
   Carousel,
+  SeniDaerah,
+  FaqAccordion,
+  Footer,
 } from "../components"
 
 const HomePage = () => {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
+      <Header />
       <main>
-        <Hero />
         <Destinasi />
         <Carousel />
         <Populer />
         <Hotel />
+        <SeniDaerah />
+        <FaqAccordion />
       </main>
+      <Footer />
     </>
   )
 }

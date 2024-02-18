@@ -1,9 +1,10 @@
-const ChevronDown = () => {
+/* eslint-disable react/prop-types */
+const ChevronDown = ({ className, width = "32" }) => {
   return (
     <svg
-      className="mx-auto"
-      width="32"
-      height=""
+      className={`mx-auto ${className}`}
+      width={width}
+      height={width}
       viewBox="0 0 35 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

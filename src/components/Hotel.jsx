@@ -2,7 +2,7 @@ import { SectionLink, SectionTitle, SectionDescription } from "./index"
 
 const Hotel = () => {
   return (
-    <section className="mt-32 text-center">
+    <section className="mb-[263px] text-center">
       <SectionTitle>Rekomendasi Hotel di Jawa Barat</SectionTitle>
       <SectionDescription className="mb-32">
         Temukan kenyamanan dan nikmati malammu dengan rekomendasi hotel yang

@@ -17,3 +17,11 @@
 .text-balance {
   text-wrap: balance;
 }
+
+.ReactCollapse--collapse {
+  transition: height 400ms;
+  -webkit-transition: height 400ms;
+  -moz-transition: height 400ms;
+  -ms-transition: height 400ms;
+  -o-transition: height 400ms;
+}

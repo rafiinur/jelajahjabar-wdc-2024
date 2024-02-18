@@ -3,7 +3,8 @@ import ArrowRight from "./ArrowRight"
 import ChevronDown from "./ChevronDown"
 import Hearth from "./Hearth"
 import LocationCheck from "./LocationCheck"
-import MafnifyingGlass from "./MagnifyingGlass"
+import MagnifyingGlass from "./MagnifyingGlass"
+import Jabar from "./Jabar"
 
 export {
   ArrowLeft,
@@ -11,5 +12,6 @@ export {
   ChevronDown,
   Hearth,
   LocationCheck,
-  MafnifyingGlass,
+  MagnifyingGlass,
+  Jabar,
 }

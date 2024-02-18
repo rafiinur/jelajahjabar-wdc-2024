@@ -1,5 +1,3 @@
-import Navbar from "./Navbar"
-import Hero from "./Hero"
 import Destinasi from "./Destinasi"
 import Populer from "./Populer"
 import SectionTitle from "./SectionTitle"
@@ -7,10 +5,17 @@ import SectionDescription from "./SectionDescription."
 import SectionLink from "./SectionLink"
 import Hotel from "./Hotel"
 import Carousel from "./Carousel"
+import Header from "./Header"
+import Navbar from "./Navbar"
+import Hero from "./Hero"
+import SeniDaerah from "./SeniDaerah"
+import FaqAccordion from "./FaqAccordion"
+import Footer from "./Footer"
 
 export {
   Navbar,
   Hero,
+  Header,
   Destinasi,
   Populer,
   SectionDescription,
@@ -18,4 +23,7 @@ export {
   SectionLink,
   Hotel,
   Carousel,
+  SeniDaerah,
+  FaqAccordion,
+  Footer,
 }

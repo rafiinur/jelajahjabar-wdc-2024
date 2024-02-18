@@ -10,11 +10,11 @@ const Destinasi = () => {
       <SectionDescription className="mb-28">
         Pengalaman Tak Terlupakan Sedang Menunggumu
       </SectionDescription>
-      <div className="flex justify-center max-w-6xl gap-6 mx-auto item-center">
+      <div className="flex max-w-6xl gap-6 mx-auto items-start">
         {destinasi.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-center"
+            className="flex flex-col justify-center items-center"
           >
             <div className="mb-10">
               <img
