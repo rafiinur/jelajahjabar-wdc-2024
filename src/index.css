@@ -13,6 +13,29 @@
 .bg-hero {
   background-image: url("/img/hero.png");
 }
+.bg-bandung {
+  background-image: url("/img/carousel-2.png");
+}
+
+.bg-bandung-2 {
+  background-image: url("/img/carousel-1.png");
+}
+
+.bg-wayang {
+  background-image: url("../public/img/seni-daerah-1.png");
+}
+
+.bg-angklung {
+  background-image: url("../public/img/seni-daerah-2.png");
+}
+
+.bg-silat {
+  background-image: url("../public/img/seni-daerah-3.png");
+}
+
+.bg-jaipong {
+  background-image: url("../public/img/seni-daerah-4.png");
+}
 
 .text-balance {
   text-wrap: balance;

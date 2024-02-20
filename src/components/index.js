@@ -12,6 +12,13 @@ import SeniDaerah from "./SeniDaerah"
 import FaqAccordion from "./FaqAccordion"
 import Footer from "./Footer"
 
+import TentangBandung from "./TentangBandung"
+import AlasanBandung from "./AlasanBandung"
+import DestinasiWisata from "./DestinasiWisata"
+import MapFrame from "./MapFrame"
+import CiriKhas from "./CiriKhas"
+import TipsWisata from "./TipsWisata"
+
 export {
   Navbar,
   Hero,
@@ -26,4 +33,10 @@ export {
   SeniDaerah,
   FaqAccordion,
   Footer,
+  TentangBandung,
+  AlasanBandung,
+  DestinasiWisata,
+  MapFrame,
+  CiriKhas,
+  TipsWisata
 }

@@ -1,12 +1,14 @@
-import { Navbar, Hero } from "../components"
+/* eslint-disable react/prop-types */
+import { Navbar, Hero } from "../components";
 
-const Header = () => {
+const Header = ({ bgimg, texthead, textpara }) => {
+  const className = `relative w-full h-screen bg-center bg-no-repeat bg-cover ${bgimg} `;
   return (
-    <header className="relative w-full h-screen bg-center bg-no-repeat bg-cover bg-hero">
+    <header className={className}>
       <Navbar />
-      <Hero />
+      <Hero texthead={texthead} textpara={textpara} />
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

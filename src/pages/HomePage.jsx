@@ -7,12 +7,16 @@ import {
   SeniDaerah,
   FaqAccordion,
   Footer,
-} from "../components"
+} from "../components";
 
 const HomePage = () => {
   return (
     <>
-      <Header />
+      <Header
+        bgimg="bg-hero"
+        texthead="Keajaiban Alam Jawa Barat"
+        textpara="Petualangan alam yang menakjubkan menunggumu"
+      />
       <main>
         <Destinasi />
         <Carousel />
@@ -23,7 +27,7 @@ const HomePage = () => {
       </main>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

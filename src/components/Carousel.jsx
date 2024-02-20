@@ -1,6 +1,6 @@
-import { carousel } from "../constant"
-import { ArrowLeft, ArrowRight } from "../assets/icons"
-import { Jabar } from "../assets/icons"
+import { carousel } from "../constant";
+import { ArrowLeft, ArrowRight } from "../assets/icons";
+import { Jabar } from "../assets/icons";
 
 const Carousel = () => {
   return (
@@ -14,7 +14,7 @@ const Carousel = () => {
           <div className="flex items-center justify-between h-full mx-auto max-w-7xl">
             <div>
               <button className="p-5 border rounded-full border-primary">
-                <ArrowLeft />
+                <ArrowLeft className="fill-primary" />
               </button>
             </div>
             <div className="flex flex-col items-start w-[50%] gap-3">
@@ -34,14 +34,14 @@ const Carousel = () => {
             </div>
             <div>
               <button className="p-5 border rounded-full border-primary">
-                <ArrowRight />
+                <ArrowRight className="fill-primary" />
               </button>
             </div>
           </div>
         </div>
       ))}
     </section>
-  )
-}
+  );
+};
 
-export default Carousel
+export default Carousel;

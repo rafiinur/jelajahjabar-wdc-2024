@@ -1,5 +1,5 @@
-import { SectionTitle, SectionDescription, SectionLink } from "./index"
-import { LocationCheck, Hearth } from "../assets/icons"
+import { SectionTitle, SectionDescription, SectionLink } from "./index";
+import { LocationCheck, Hearth } from "../assets/icons";
 
 const Populer = () => {
   return (
@@ -69,21 +69,17 @@ const Populer = () => {
         <div className="row-span-2 bg-dark-grey rounded-xl">
           <div className="flex flex-col px-4 pt-3 pb-8">
             <div className="rounded-lg">
-              <img
-                src="/img/populer-2.png"
-                alt="populer"
-                className="w-full"
-              />
+              <img src="/img/populer-2.png" alt="populer" className="w-full" />
             </div>
             <div className="flex items-center justify-between">
-              <h3 className="my-3 text-2xl font-semibold">Taj Mahal</h3>
+              <h3 className="my-3 text-2xl font-semibold">Eiffel Tower</h3>
               <button className="w-10 h-10 transition-colors rounded-full cursor-pointer hover:bg-dark-grey">
                 <Hearth />
               </button>
             </div>
             <div className="flex items-center gap-2">
               <LocationCheck />
-              <p className="text-lg font-light text-start">Agra</p>
+              <p className="text-lg font-light text-start">Paris</p>
             </div>
           </div>
         </div>
@@ -97,21 +93,23 @@ const Populer = () => {
               />
             </div>
             <div className="flex items-center justify-between">
-              <h3 className="my-3 text-2xl font-semibold">Taj Mahal</h3>
+              <h3 className="my-3 text-2xl font-semibold">
+                Great Wall of China
+              </h3>
               <button className="w-10 h-10 transition-colors rounded-full cursor-pointer hover:bg-dark-grey">
                 <Hearth />
               </button>
             </div>
             <div className="flex items-center gap-2">
               <LocationCheck />
-              <p className="text-lg font-light text-start">Agra</p>
+              <p className="text-lg font-light text-start">Beijing</p>
             </div>
           </div>
         </div>
       </div>
       <SectionLink>Lihat Selengkapnya</SectionLink>
     </section>
-  )
-}
+  );
+};
 
-export default Populer
+export default Populer;
